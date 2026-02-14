@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+
+    <!-- GOOGLE FONTS: MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/home.css">
+
+</head>
+<body>
+    <div id="hero"> 
+        <div id="heroText"> 
+            <h1>Your<br>PrYME</h1> 
+            <p id="slogan">¿Tienes dudas?</p> 
+        </div> 
+        <div id="mainButtons"> 
+            <a href="../index.html">Home</a> 
+            <a href="../pages/get-started.html">Comenzar</a> 
+        </div> 
+    </div>
+
+    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Access Key de Web3Forms -->
+        <input type="hidden" name="access_key" value="bdc6a0eb-4a6c-4194-a4d6-720120e5d2d7">
+    
+        <!-- Configuración adicional -->
+        <input type="hidden" name="subject" value="Nuevo contacto desde YourPrYME">
+        <input type="hidden" name="from_name" value="Formulario YourPrYME">
+
+        <label>Nombre</label>
+        <input type="text" name="name" placeholder="Tu nombre" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="tuemail@ejemplo.com" required>
+
+        <label>Escríbenos</label>
+        <textarea name="message" placeholder="Cuéntanos qué dudas tienes..." required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <footer id="footer">
+        <div class="footer-content">
+            <h3>YourPrYME</h3>
+            <p>Soluciones web para negocios locales: diseño, herramientas personalizadas y SEO básico.</p>
+
+            <div class="footer-info">
+                <p><strong>Email:</strong> contact@ingoro.dev</p>
+                <p><strong>Teléfono:</strong> +34 693 55 75 65</p>
+                <p><strong>Ubicación:</strong> Sevilla, España</p>
+            </div>
+
+            <p class="footer-copy">© 2024 YourPrYME — Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

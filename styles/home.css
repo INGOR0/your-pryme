@@ -21,6 +21,7 @@ body::-webkit-scrollbar {
     justify-content: space-between; 
     align-items: flex-start; 
     padding: 2.5% 10%;
+    overflow: hidden;
 } 
 
 #heroText { 

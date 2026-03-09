@@ -83,15 +83,15 @@ h1 {
 
 /* PADDING DE SECCIONES */
 #howWeWork {
-    padding-top: 4%;
+    padding-top: 60px;
 }
 
 #portfolio {
-    padding-top: 4%;
+    padding-top: 60px;
 }
 
 #whoAreWe { 
-    padding-top: 4%; 
+    padding-top: 60px; 
 }
 
 /* CONTENEDOR DE CARDS */
